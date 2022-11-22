@@ -1,0 +1,156 @@
+body{
+    background-color:black;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(10, 201, 51);
+}
+header h1{
+    font-size: 100px;
+}
+header h3{
+    font-size: 18px;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.content{
+    padding: 50px;
+    display: flex;
+    gap: 80px;
+}
+.ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+}
+.ladoEsquerdo img{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+.caixaBotao{
+    display: flex;
+    margin-top: 60px;
+    padding: 30px;
+    justify-content: center;
+}
+.bot1{
+    background-color: rgb(10, 201, 51);
+    border-color: rgb(10, 201, 51);
+}
+.bot1:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
+.bot2{
+    background-color: transparent;
+    border-color: rgb(10, 201, 51);
+}
+.bot2:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
+.bot1,.bot2{
+    border: 2px solid green;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ladoDireito{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(39, 39, 226);
+    height: max-content;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.ladoDireito h2{
+    font-size: 30px;
+    color: rgb(39, 39, 226);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ladoDireito ul{
+    font-size: 18px;
+    color: rgb(10, 201, 51);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ladoDireito ol{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#grad{
+    background-color: rgb(10, 201, 51);
+    background-image: solid rgb(10, 201, 51);
+    border-radius: 25px;
+    text-align: justify;
+    color: black;
+}
+#grad2{
+    background-image: black;
+    text-align: left;
+    color: black;
+}
+#color{
+    color: aliceblue;
+}
+.titulo{
+    height: 100px;
+}
+#logo1{
+    width: 200px;
+    height: 200px;
+    margin-left: 38%;
+}
+#colorul1{
+    color: rgb(10, 201, 51);
+}
+#colorul2{
+    color: rgb(10, 201, 51);
+}
+#colorul3{
+    color: rgb(10, 201, 51);
+}
+#colorul4{
+    color: rgb(10, 201, 51);
+}
+#colorul1:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
+#colorul2:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
+#colorul3:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
+#colorul4:hover{
+    transition: linear;
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 226);
+}
