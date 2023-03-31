@@ -1,0 +1,32 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Botão Jogar Dado */
+#btJogar {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btJogar:hover {
+    background-color: navy;
+}
+
+/* Resultado */
+#conteudo {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
